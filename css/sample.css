@@ -178,7 +178,6 @@ footer {
   padding-top: 20px; }
   @media (max-width: 550px) {
     footer .container {
-      margin: 0;
       padding: 0; }
     footer .sp {
       padding: 0 6%;
@@ -311,7 +310,17 @@ h1 {
         padding: 15px;
         margin-bottom: 0; }
       #contens .container #sidebar .side_li li {
-        list-style: none; }
+        list-style: none;
+        display: block;
+        border-bottom: 1px solid #e5e5e5;
+        background-repeat: no-repeat;
+        background-position: 8px center;
+        background-size: 4px 8px;
+        margin-bottom: 0;
+        padding: 10px 10px 10px 20px; }
+        #contens .container #sidebar .side_li li a {
+          color: #339fd1;
+          text-decoration: none; }
       @media (max-width: 550px) {
         #contens .container #sidebar .pc_sidemenu {
           display: none; } }

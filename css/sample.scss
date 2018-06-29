@@ -312,7 +312,7 @@ footer {
   @media (max-width: 550px) {
     
     .container {
-      margin: 0;
+      
       padding: 0;
     }
     
@@ -513,6 +513,18 @@ h1 {
         
         li {
           list-style: none;
+          display: block;
+          border-bottom: 1px solid #e5e5e5;
+          background-repeat: no-repeat;
+          background-position: 8px center;
+          background-size: 4px 8px;
+          margin-bottom: 0;
+          padding: 10px 10px 10px 20px;
+          
+          a {
+            color: #339fd1;
+            text-decoration: none;
+          }
         }
       }
       
