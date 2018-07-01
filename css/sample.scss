@@ -443,7 +443,8 @@ h1 {
     @include fontsize(16);
     font-weight: bold;
     letter-spacing: 0.2rem;
-    line-height: 2rem;
+    margin: 0;
+    text-align: center;
   }
   
   @media (min-width: 551px) {
@@ -456,7 +457,7 @@ h1 {
 }
 
 // ニュースリリースエリア
-#contens {
+#contents {
   padding-top: 20px;
   
   .container {
@@ -472,10 +473,6 @@ h1 {
       @include fontsize(15);
       font-weight: bold;
       padding-bottom: 15px;
-      line-height: 1.25;
-      letter-spacing: -0.1rem;
-      margin-top: 0;
-      margin-bottom: 2rem;
     }
     
     .news_li {
@@ -544,19 +541,17 @@ h1 {
     box-sizing: border-box;
   }
   
-  @media (min-width: 401px) {
-    .container {
-      padding: 0;
-      width: 85%;
-    }
-  }
   
   @media (min-width: 551px) {
+      padding-top: 35px;
+      padding-bottom: 70px;
+    
     .container {
       width: 80%;
       
       h2 {
         @include fontsize(20);
+        padding-bottom: 20px;
       }
       
       .news_li {
@@ -584,7 +579,7 @@ h1 {
 }
 
 // company.html
-#main_content {
+#main_contents {
   padding-top: 20px;
   
   #company {
